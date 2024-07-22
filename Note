@@ -1,3 +1,4 @@
 if i take a look in html file which is present in the public folder in there script tag is not use for connect js How ? ans is in package.json file a react-script is present which is doing its work for connect js script .
 react is a single page application because our html file has a single div or a single page.
 React create a dom another than window so that we can change thing then applying on tag part of dom . 
+ui apdation is control by react . we use hook for ui apdation .  
