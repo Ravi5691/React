@@ -4,3 +4,4 @@ React create a dom another than window so that we can change thing then applying
 ui apdation is control by react . we use hook for ui apdation .  
 createroot create a dom like structure behind the scene then campare it to the main dom then make changes accounding it at particular places.
 in js html alway a opening tag has a closing tag. 
+onclick needed function . 
