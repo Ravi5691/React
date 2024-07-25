@@ -5,3 +5,22 @@ ui apdation is control by react . we use hook for ui apdation .
 createroot create a dom like structure behind the scene then campare it to the main dom then make changes accounding it at particular places.
 in js html alway a opening tag has a closing tag. 
 onclick needed function . 
+
+HOOKS :
+
+1 - useState
+2 - useCallback
+3 - useEffect
+4 - useRef
+
+
+add tailwind css :
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
