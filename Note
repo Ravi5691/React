@@ -1,10 +1,13 @@
-if i take a look in html file which is present in the public folder in there script tag is not use for connect js How ? ans is in package.json file a react-script is present which is doing its work for connect js script .
+------if i take a look in html file which is present in the public folder in there script tag is not use for connect js How ? ans is in package.json file a react-script is present which is doing its work for connect js script .
 react is a single page application because our html file has a single div or a single page.
-React create a dom another than window so that we can change thing then applying on tag part of dom . 
+------React create a dom another than window so that we can change thing then applying on tag part of dom . 
 ui apdation is control by react . we use hook for ui apdation .  
-createroot create a dom like structure behind the scene then campare it to the main dom then make changes accounding it at particular places.
+------createroot create a dom like structure behind the scene then campare it to the main dom then make changes accounding it at particular places.
 in js html alway a opening tag has a closing tag. 
-onclick needed function . 
+------onclick needed function . 
+------ React has no concept of refresh the page only dom tree change so we use link tag in react rather than a tag ( a tag refresh the page ).
+
+
 
 HOOKS :
 
