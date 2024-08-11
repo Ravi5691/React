@@ -8,6 +8,9 @@ const initialState = {
 export const todoSlice = createSlice({
     name:'todo' ,
     initialState,
+
+    // reducer is a function which can change its state according to the action . It is a pure funcion always give same input for same output any other side effect does't happen.
+    // reducer application is to take present state and one action as input then create a new output state . 
     reducers : {
         addTodo :  (state , action) => {
             const todo = {
@@ -29,3 +32,5 @@ export const todoSlice = createSlice({
 export const {addTodo , removeTodo} = todoSlice.actions 
 
 export default todoSlice.reducer
+
+// slicing in redux is different from the python,in redux slicing slicing meaning is to change one part of state then creating a new reducer and action for that part. 

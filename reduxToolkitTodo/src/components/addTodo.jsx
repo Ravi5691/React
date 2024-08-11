@@ -6,7 +6,8 @@ function AddTodo() {
 
     const [input, setInput] = useState('')
     const dispatch = useDispatch()
-    // dispatch use reducer to change value in the store 
+    // dispatch use reducer to change value in the store.
+    // dispatch is use to give a action to store by this action state is updated in the store.
 
     const addTodoHandler = (e) => {
         e.preventDefault()
